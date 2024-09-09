@@ -23,7 +23,7 @@ public class ListaEncDupla<generic>{
         
         lista.removeElemento(5);
         //REMOVE O ELEMENTO DO INDICE
-        //NÃO FUNCIONA COM O QUE N TEM PRÓXIMO
+        //REMOVE COMPLETO OK
 
         No<Object> item = lista.getInList(0); 
         System.out.println(item.getBrinquedo().toString());
